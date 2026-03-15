@@ -9,18 +9,18 @@ const Section = () => {
   return (
     <motion.div initial={{ x: -1000 }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ x: 0 }} className='flex xl:w-[90%] flex-col lg:flex-row items-center content-center mx-auto mt-5 gap-5 p-5'>
         <div className='flex p-3 w-full flex-col gap-5'>
-            <span className='poppins-bold text-4xl leading-relaxed xl:leading-tight lg text-5xl xl:text-8xl text-[#0F172A]'>Transformez chaque <span className='text-transparent relative bg-clip-text bg-[linear-gradient(90deg,_#16A34A_0%,_#0B6B3A_100%)]'>produit <div className='absolute bottom-0 left-0 w-full'><img src={Underline} className='w-full' alt="" /></div></span> en expérience de jeu</span>
+            <span className='poppins-bold text-4xl leading-relaxed xl:leading-tight lg sm:text-5xl xl:text-8xl text-[#0F172A]'>Transformez chaque <span className='text-transparent relative bg-clip-text bg-[linear-gradient(90deg,_#16A34A_0%,_#0B6B3A_100%)]'>produit <div className='absolute bottom-0 left-0 w-full'><img src={Underline} className='w-full' alt="" /></div></span> en expérience de jeu</span>
             <span className='text-3xl leading-relaxed text-[#475569] poppins-regular'>YouCanWin connecte vos marques aux fans de football à travers des mécaniques de gamification innovantes. <span className='poppins-semibold text-[#0F172A]'>Codes QR, cartes digitales, défis et récompenses.</span></span>
-            <div className='flex flex-row w-full justify-between items-center'>
-                <div className='flex flex-col'>
+            <div className='flex flex-col gap-5 sm:gap-0 sm:flex-row w-full justify-between items-center'>
+                <div className='flex flex-col items-center sm:items-start'>
                     <span className='poppins-bold text-3xl text-[#0B6B3A]'>500k+</span>
                     <span className='poppins-medium text-md text-[#475569]'>Interactions/mois</span>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex flex-col items-center sm:items-start'>
                     <span className='poppins-bold text-3xl text-[#B01219]'>50+</span>
                     <span className='poppins-medium text-md text-[#475569]'>Marques actives</span>
                 </div>
-                <div className='flex flex-col'>
+                <div className='flex flex-col items-center sm:items-start'>
                     <span className='poppins-bold text-3xl text-[#0B6B3A]'>x3.5</span>
                     <span className='poppins-medium text-md text-[#475569]'>ROI moyen</span>
                 </div>

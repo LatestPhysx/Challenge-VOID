@@ -49,8 +49,8 @@ const Footer = () => {
                 <span className='flex items-end md:justify-center'>
                     <div className='py-2 px-6 flex flex-row gap-2 items-center justify-center bg-[#F0FDF4] border border-[#BBF7D0] rounded-lg text-[#0B6B3A] poppins-medium'><img src={GreenShield} alt="" /> Site conforme CNDP Maroc</div>
                 </span>
-                <span className='flex whitespace-normal wrap-break-word items-start md:justify-center text-[#475569] poppins-regular'>
-                    Un service de&nbsp;<span className='text-[#0B6B3A] poppins-semibold'>Agency.Africa</span>&nbsp;—&nbsp;<a target='_blank' href="http://games.agency.africa">games.agency.africa</a>
+                <span className=' whitespace-normal wrap-break-word items-start md:justify-center text-[#475569] poppins-regular'>
+                    Un service de&nbsp;<span className='text-[#0B6B3A] wrap-break-word  poppins-semibold'>Agency.Africa</span>&nbsp;—&nbsp;<a className='whitespace-normal wrap-break-word' target='_blank' href="http://games.agency.africa">games.agency.africa</a>
                 </span>
             </div>
         </motion.div>

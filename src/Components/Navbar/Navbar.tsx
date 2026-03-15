@@ -44,8 +44,8 @@ const Navbar = () => {
         </motion.nav>
         <motion.nav initial={{ y: -100 }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ y: 0 }} className='flex w-full lg:hidden p-5 relative'>
             <div className='flex flex-row justify-center items-center gap-1'>
-                <img src={Icon} alt="" />
-                <span className='poppins-bold text-2xl'>
+                <img className='w-10' src={Icon} alt="" />
+                <span className='poppins-bold text-lg sm:text-2xl'>
                     <span className='bg-[linear-gradient(90deg,_#DC2626_0%,_#B01219_100%)] bg-clip-text text-transparent'>You</span>
                     <span className='text-[#1E293B]'>can</span>
                     <span className='bg-[linear-gradient(90deg,_#16A34A_0%,_#0B6B3A_100%)] bg-clip-text text-transparent'>win</span>
@@ -53,11 +53,11 @@ const Navbar = () => {
                 <div className='px-2 py-1 uppercase text-[#0B6B3A] poppins-semibold bg-[#DCFCE7] rounded-full'>games</div>
             </div>
             <div className='flex-1'></div>
-            <button className='hover:cursor-pointer' onClick={() => setSidebarActive(true)}><img className='w-10' src={SidebarIcon} alt="" /></button>
+            <button className='hover:cursor-pointer' onClick={() => setSidebarActive(true)}><img className='w-8 sm:w-10' src={SidebarIcon} alt="" /></button>
             <div className={`${sidebarActive ? "opacity-100" : "opacity-0 pointer-events-none"} fixed top-0 left-0 z-20 w-screen h-screen bg-gray-500/50`}>
                 <div className={`flex ease-in-out transform z-20 ${sidebarActive ? "translate-x-0" : "translate-x-full"} duration-700 flex-col fixed w-2/3 h-full top-0 right-0 bg-white items-center justify-center`}>
                     <button className='hover:cursor-pointer' onClick={() => setSidebarActive(false)} className='py-2 px-4 poppins-bold absolute top-4 right-0 -translate-x-1/3 text-white'><img className='w-10' src={CloseIcon} alt="" /></button>
-                    <div className='flex flex-col justify-center items-center text-md capitalize content-center poppins-medium gap-10 w-full'>
+                    <div className='flex p-5 flex-col justify-center items-center text-md capitalize content-center poppins-medium gap-10 w-full'>
                         <button className='capitalize hover:cursor-pointer'>nos offres</button>
                         <button className='capitalize hover:cursor-pointer'>nos jeux</button>
                         <button className='capitalize hover:cursor-pointer'>album 2025</button>
