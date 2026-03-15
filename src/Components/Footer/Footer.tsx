@@ -10,9 +10,9 @@ import { motion } from 'motion/react'
 
 const Footer = () => {
     return (
-        <motion.div initial={{ y: -200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ y: 0 }} className='w-full bg-[#F8FAFC] py-14'>
+        <motion.div initial={{ y: -200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ y: 0 }} className='w-full bg-[#F8FAFC] py-3'>
             <div className='w-full grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-5 p-5 lg:w-[95%] mx-auto'>
-                <div className='flex flex-col gap-5 items-start justify-center md:p-5'>
+                <div className='flex flex-col gap-5 items-start justify-center lg:p-5'>
                     <div className='flex flex-row gap-5 items-center justify-center'>
                         <img className='w-12' src={Icon} alt="" />
                         <span className='poppins-bold text-2xl'>
@@ -29,14 +29,14 @@ const Footer = () => {
                         <a href="http://" target="_blank" rel="noopener noreferrer"><img src={Linkedin} alt="" /></a>
                     </div>
                 </div>
-                <div className='flex flex-col gap-3'>
+                <div className='flex flex-col gap-3 lg:p-5'>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#0F172A] mb-1 text-xl poppins-semibold'>Liens rapides</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Nos offres</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Nos jeux</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Album 2025</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>À propos</span></a>
                 </div>
-                <div className='flex flex-col gap-3'>
+                <div className='flex flex-col gap-3 lg:p-5'>
                     <span className='text-[#0F172A] mb-1 text-xl poppins-semibold'>Contact & Légal</span>
                     <a href="mailto:games@agency.africa"><span className='text-[#475569] poppins-regular'>games@agency.africa</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Mentions légales</span></a>

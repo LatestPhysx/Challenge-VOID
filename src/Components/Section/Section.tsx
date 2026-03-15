@@ -25,14 +25,14 @@ const Section = () => {
                     <span className='poppins-medium text-md text-[#475569]'>ROI moyen</span>
                 </div>
             </div>
-            <div className='w-full flex gap-3'>
+            <div className='w-full flex flex-col sm:flex-row gap-3'>
                 <button className='text-white justify-center w-full lg:w-1/4 bg-[linear-gradient(90deg,_#16A34A_0%,_#0B6B3A_100%)] flex items-center p-3 gap-3 rounded-xl shadow-[0px_4px_6px_-4px_#0000001A,_0px_10px_15px_-3px_#0000001A] hover:cursor-pointer'>Voir la démo <img src={rightArrow} alt="" /></button>
                 <button className='poppins-medium rounded-[12px] justify-center w-full lg:w-2/4 bg-white border-2 border-[#CBD5E1] text-[#334155] flex items-center p-3 gap-3 hover:cursor-pointer'><img src={Lightbulb} alt="" /> Comment ça marche</button>
             </div>
             <div className='mt-5 mb-3 w-full h-[1px] bg-[#E2E8F0]'></div>
             <div className='flex flex-col'>
                 <span className='poppins-medium text-[#64748B] text-lg'>Ils nous font confiance</span>
-                <div className='flex flex-col lg:flex-row gap-5 my-5 text-[#94A3B8] poppins-medium'>
+                <div className='grid grid-cols-2 items-center text-center sm:grid-cols-4 lg:grid-cols-1 lg:text-start lg:items-start gap-5 my-5 text-[#94A3B8] poppins-medium'>
                     <span>Maroc Telecom</span>
                     <span>Inwi</span>
                     <span>Orange</span>
@@ -41,7 +41,7 @@ const Section = () => {
             </div>
         </div>
         <div className='w-full h-full'>
-            <img className='w-full' src={PhoneIcon} alt="" />
+            <img className='w-full h-full' src={PhoneIcon} alt="" />
         </div>
     </motion.div>
   )
