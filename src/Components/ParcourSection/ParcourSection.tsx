@@ -37,7 +37,7 @@ const ParcourSection = () => {
     ]
 
   return (
-    <motion.div initial={{ y: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ y: 0 }} className='flex flex-col gap-5 py-24 px-5'>
+    <motion.div initial={{ y: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ y: 0 }} className='flex flex-col gap-5 py-24 px-5'>
         <div className='flex flex-col gap-5 w-full items-center justify-center'>
             <span className='text-5xl poppins-bold text-[#0F172A]'>Un parcours client simple et engageant</span>
             <span className='text-xl poppins-regular text-[#475569]'>De l'achat du produit à la récompense, en 5 étapes</span>

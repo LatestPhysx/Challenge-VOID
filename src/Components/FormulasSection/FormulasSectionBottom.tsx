@@ -69,7 +69,7 @@ const FormulasSectionBottom = () => {
     ];
 
     return (
-        <motion.div initial={{ x: 200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ x: 0 }} className='flex flex-col w-full bg-[linear-gradient(180deg,_#FFFFFF_0%,_#F8FAFC_100%)] py-24 px-8 gap-5 items-center'>
+        <motion.div initial={{ x: 200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ x: 0 }} className='flex flex-col w-full bg-[linear-gradient(180deg,_#FFFFFF_0%,_#F8FAFC_100%)] py-24 px-8 gap-5 items-center'>
             <span className='text-5xl poppins-bold text-[#0F172A]'>Des formules adaptées à votre échelle</span>
             <span className='text-xl text-[#475569] poppins-regular'>Choisissez la solution qui correspond à vos besoins et votre ambition</span>
             <div className='mt-24 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-center'>

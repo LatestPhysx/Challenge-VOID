@@ -10,7 +10,7 @@ import { motion } from 'motion/react'
 
 const Footer = () => {
     return (
-        <motion.div initial={{ y: -200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ y: 0 }} className='w-full bg-[#F8FAFC] py-14'>
+        <motion.div initial={{ y: -200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ y: 0 }} className='w-full bg-[#F8FAFC] py-14'>
             <div className='w-full grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] gap-5 p-5 lg:w-[95%] mx-auto'>
                 <div className='flex flex-col gap-5 items-start justify-center md:p-5'>
                     <div className='flex flex-row gap-5 items-center justify-center'>
@@ -49,7 +49,7 @@ const Footer = () => {
                 <span className='flex items-end md:justify-center'>
                     <div className='py-2 px-6 flex flex-row gap-2 items-center justify-center bg-[#F0FDF4] border border-[#BBF7D0] rounded-lg text-[#0B6B3A] poppins-medium'><img src={GreenShield} alt="" /> Site conforme CNDP Maroc</div>
                 </span>
-                <span className='flex items-start md:justify-center text-[#475569] poppins-regular'>
+                <span className='flex whitespace-pre items-start md:justify-center text-[#475569] poppins-regular'>
                     Un service de&nbsp;<span className='text-[#0B6B3A] poppins-semibold'>Agency.Africa</span>&nbsp;—&nbsp;<a target='_blank' href="http://games.agency.africa">games.agency.africa</a>
                 </span>
             </div>

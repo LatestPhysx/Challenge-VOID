@@ -57,7 +57,7 @@ const GenerationSection = () => {
     ];
 
   return (
-    <motion.div initial={{ y: -100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ y: 0 }} className='w-full bg-[linear-gradient(180deg,_#FFFFFF_0%,_#F5F5F5_100%)] border border-[#0000001A] px-5 py-24 flex flex-col items-center justify-center gap-5'>
+    <motion.div initial={{ y: -100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ y: 0 }} className='w-full bg-[linear-gradient(180deg,_#FFFFFF_0%,_#F5F5F5_100%)] border border-[#0000001A] px-5 py-24 flex flex-col items-center justify-center gap-5'>
         <div className='px-8 py-1.5 rounded-full bg-[#DCFCE7] text-[#0B6B3A] poppins-medium text-md flex gap-2'>
             <img src={SettingsLogo} alt="" /> Backoffice tout-en-un
         </div>

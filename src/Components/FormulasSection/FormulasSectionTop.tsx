@@ -37,7 +37,7 @@ const FormulasSectionTop = () => {
     ]
 
     return (<>
-        <motion.div initial={{ x: -200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ x: 0 }} className='w-full lg:w-[85%] py-24 mx-auto bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5'>
+        <motion.div initial={{ x: -200 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ x: 0 }} className='w-full lg:w-[85%] py-24 mx-auto bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5'>
             {
                 items.map((item) => {
                     return (

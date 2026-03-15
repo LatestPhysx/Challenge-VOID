@@ -34,7 +34,7 @@ const DemoSection = () => {
     ];
 
     return (
-        <motion.div initial={{ x: 1000 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ x: 0 }} className='w-full border border-[#0000001A] p-1 lg:p-5 grid grid-cols-1 lg:grid-cols-2 bg-[linear-gradient(180deg,_#FFFFFF_0%,_#F5F5F5_100%)] mx-auto'>
+        <motion.div initial={{ x: 1000 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ x: 0 }} className='w-full border border-[#0000001A] p-1 lg:p-5 grid grid-cols-1 lg:grid-cols-2 bg-[linear-gradient(180deg,_#FFFFFF_0%,_#F5F5F5_100%)] mx-auto'>
             <div className='h-full flex items-center justify-center'>
                 <img className='h-full min-w-2/3 ' src={ballImage} alt="" />
             </div>

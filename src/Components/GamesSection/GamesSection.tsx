@@ -32,7 +32,7 @@ const GamesSection = () => {
     ]
 
     return (
-        <motion.div initial={{ y: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ y: 0 }} className='w-full bg-[#F8FAFC] gap-5 flex flex-col py-24 px-8 items-center'>
+        <motion.div initial={{ y: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ y: 0 }} className='w-full bg-[#F8FAFC] gap-5 flex flex-col py-24 px-8 items-center'>
             <span className='text-3xl text-[#0F172A] poppins-bold'>Catalogue de jeux</span>
             <span className='text-lg text-[#475569] poppins-regular'>Des mécaniques éprouvées pour engager vos audiences</span>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-4 gap-5'>

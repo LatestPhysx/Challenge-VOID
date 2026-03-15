@@ -26,7 +26,7 @@ const TransformSection = () => {
 
 
   return (
-    <motion.div initial={{ x: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ x: 0 }} className='w-full py-24 px-5 bg-[linear-gradient(90deg,_#16A34A_0%,_#0B6B3A_100%)] text-white flex flex-col gap-5 items-center'>
+    <motion.div initial={{ x: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ x: 0 }} className='w-full py-24 px-5 bg-[linear-gradient(90deg,_#16A34A_0%,_#0B6B3A_100%)] text-white flex flex-col gap-5 items-center'>
         <span className='text-4xl poppins-bold'>Transformez vos ventes en expérience mémorable</span>
         <span className='text-center text-[#F0FDF4] poppins-regular text-lg'>YouCanWin offre à vos clients plus qu'un produit : une expérience interactive <br /> complète autour du football</span>
         <div className='my-5 w-[90%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>

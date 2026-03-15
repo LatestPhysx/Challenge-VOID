@@ -31,7 +31,7 @@ const StatsSection = () => {
     ];
 
   return (
-    <motion.div initial={{ x: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} whileInView={{ x: 0 }} className='bg-white border-t border-[#E5E7EB] w-full py-16 px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-5'>
+    <motion.div initial={{ x: 100 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4, ease: "backInOut" }} animate={{ x: 0 }} className='bg-white border-t border-[#E5E7EB] w-full py-16 px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-5'>
         {
             items.map((item, index) => {
                 return(
