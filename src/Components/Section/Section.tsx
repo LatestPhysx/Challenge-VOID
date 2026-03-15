@@ -41,7 +41,7 @@ const Section = () => {
             </div>
         </div>
         <div className='w-full h-full'>
-            <img className='w-full h-full' src={PhoneIcon} alt="" />
+            <img src={PhoneIcon} className='w-full h-full' alt="" />
         </div>
     </motion.div>
   )

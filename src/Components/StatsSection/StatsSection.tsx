@@ -38,7 +38,7 @@ const StatsSection = () => {
                     <div className='flex flex-col gap-3 p-5 items-center justify-center'>
                         <img src={item.imageLink} alt="" />
                         <span className='text-4xl poppins-bold text-[#0F172A]'>{item.title}</span>
-                        <span className='text-lg text-[#475569] poppins-regular'>{item.subtitle}</span>
+                        <span className='text-lg text-center text-[#475569] poppins-regular'>{item.subtitle}</span>
                     </div>
                 );
             })
