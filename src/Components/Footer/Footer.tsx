@@ -33,7 +33,7 @@ const Footer = () => {
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#0F172A] mb-1 text-xl poppins-semibold'>Liens rapides</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Nos offres</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Nos jeux</span></a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Album 2025</span></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>Album {new Date().getFullYear()}</span></a>
                     <a href="http://" target="_blank" rel="noopener noreferrer"><span className='text-[#475569] poppins-regular'>À propos</span></a>
                 </div>
                 <div className='flex flex-col gap-3 lg:p-5'>
