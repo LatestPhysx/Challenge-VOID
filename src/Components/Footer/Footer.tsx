@@ -45,7 +45,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='w-full grid grid-cols-1 gap-5 p-5 md:p-0 xl:grid-cols-3 md:min-h-20 xl:p-10'>
-                <span className='flex items-start md:justify-center text-lg text-[#475569] poppins-regular'>© 2025 Youcanwin. Tous droits réservés.</span>
+                <span className='flex items-start md:justify-center text-lg text-[#475569] poppins-regular'>© {new Date().getFullYear()} Youcanwin. Tous droits réservés.</span>
                 <span className='flex items-end md:justify-center'>
                     <div className='py-2 px-6 flex flex-row gap-2 items-center justify-center bg-[#F0FDF4] border border-[#BBF7D0] rounded-lg text-[#0B6B3A] poppins-medium'><img src={GreenShield} alt="" /> Site conforme CNDP Maroc</div>
                 </span>
