@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className='flex flex-row justify-center items-center text-md capitalize content-center poppins-medium gap-5'>
                 <button className='capitalize hover:cursor-pointer'>nos offres</button>
                 <button className='capitalize hover:cursor-pointer'>nos jeux</button>
-                <button className='capitalize hover:cursor-pointer'>album 2025</button>
+                <button className='capitalize hover:cursor-pointer'>album {new Date().getFullYear()}</button>
                 <button className='capitalize hover:cursor-pointer'>À propos</button>
                 <button className='hover:cursor-pointer bg-[linear-gradient(90deg,_#16A34A_0%,#0B6B3A_100%)] poppins-medium text-white p-2.5 rounded-lg flex gap-4'>
                     Demander une démo
